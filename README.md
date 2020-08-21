@@ -3,6 +3,37 @@
 [![GitHub forks](https://img.shields.io/github/forks/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/network)
 [![GitHub license](https://img.shields.io/github/license/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/blob/master/LICENSE)
 
+#
+#
+#
+
+## 修复编译报错问题: 
+
+
+- 版本: 
+
+```bash 
+
+
+-> % fvm flutter --version
+Flutter 1.20.2 • channel unknown • unknown source
+Framework • revision bbfbf1770c (8 days ago) • 2020-08-13 08:33:09 -0700
+Engine • revision 9d5b21729f
+Tools • Dart 2.9.1
+
+
+
+```
+
+
+
+
+
+#
+#
+#
+
+
 ### FlutterUnit 下载体验:
 
 
