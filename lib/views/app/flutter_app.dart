@@ -24,6 +24,7 @@ class FlutterApp extends StatelessWidget {
             title: 'Flutter Unit',
             debugShowCheckedModeBanner: false,
             onGenerateRoute: Router.generateRoute,
+            // TODO-X: 路由部分
             theme: ThemeData(
               primarySwatch: state.themeColor,
               fontFamily: state.fontFamily,

@@ -49,7 +49,10 @@ class Router {
   static const String about_me = 'AboutMePage';
   static const String about_app = 'AboutAppPage';
 
+  // TODO-X: 路由部分
   static Route<dynamic> generateRoute(RouteSettings settings) {
+    debugPrint("route match: ${settings.name}");
+
     switch (settings.name) {
       //根据名称跳转相应页面
       case widget_detail:
@@ -62,7 +65,7 @@ class Router {
       case collect:
         return Right2LeftRouter(child: CollectPage());
       case nav:
-        return Left2RightRouter(child: UnitNavigation());
+        return Left2RightRouter(child: UnitNavigation());  // TODO-X: 导航栏
       case setting:
         return Right2LeftRouter(child: SettingPage());
       case font_setting:
