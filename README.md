@@ -3,9 +3,14 @@
 [![GitHub forks](https://img.shields.io/github/forks/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/network)
 [![GitHub license](https://img.shields.io/github/license/toly1994328/FlutterUnit)](https://github.com/toly1994328/FlutterUnit/blob/master/LICENSE)
 
-#
-#
-#
+
+
+
+########################################################################################################################
+
+- [x] fix 原项目编译报错问题. 
+- [x] 对源码做注解. 方便后续快速学习. 
+
 
 ## 修复编译报错问题: 
 
@@ -13,7 +18,6 @@
 - 版本: 
 
 ```bash 
-
 
 -> % fvm flutter --version
 Flutter 1.20.2 • channel unknown • unknown source
@@ -26,12 +30,79 @@ Tools • Dart 2.9.1
 ```
 
 
+## 代码注解: 
+
+- 了解整个项目的细节. 
+
+
+## 源码目录结构: 
+
+
+- 全局入口: `FlutterUnit/lib/main.dart`
+- 页面入口: `lib/views/app/flutter_app.dart`
+
+
+```bash 
 
 
 
-#
-#
-#
+-> % tree ./lib -L 2
+./lib
+├── app
+│   ├── api
+│   ├── convert.dart
+│   ├── enums.dart
+│   ├── res
+│   ├── router.dart
+│   ├── style
+│   └── utils
+├── blocs
+│   ├── bloc_exp.dart
+│   ├── category
+│   ├── category_widget
+│   ├── collect
+│   ├── detail
+│   ├── github_authentic
+│   ├── github_login
+│   ├── global
+│   ├── home
+│   ├── issues
+│   └── search
+├── components
+│   ├── flutter
+│   ├── permanent
+│   └── project
+├── main.dart                                 // 全局入口
+├── model
+│   ├── category_model.dart
+│   ├── github
+│   ├── node_model.dart
+│   └── widget_model.dart
+├── repositories
+│   ├── github_authentic_repository.dart
+│   ├── github_user_repository.dart
+│   ├── impl
+│   └── itf
+├── storage
+│   ├── app_storage.dart
+│   ├── dao
+│   └── po
+└── views
+    ├── app                                  // 页面入口:
+    ├── common
+    ├── dialogs
+    ├── items
+    ├── pages
+    └── widgets
+
+35 directories, 11 files
+
+
+```
+
+##############################################################################################################################
+
+
 
 
 ### FlutterUnit 下载体验:
